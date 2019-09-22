@@ -1,0 +1,50 @@
+{
+  "name": "global",
+  "version": "1.0.0",
+  "description": "new project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zummer/global.git"
+  },
+  "author": "Dmitry Afanasev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zummer/global/issues"
+  },
+  "homepage": "https://github.com/Zummer/global#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.6.0",
+    "@types/koa": "^2.0.49",
+    "@types/koa-router": "^7.0.42",
+    "@types/node": "^12.7.5",
+    "@types/react": "^16.9.2",
+    "@types/react-router-dom": "^4.3.5",
+    "assets-webpack-plugin": "^3.9.10",
+    "babel-loader": "^8.0.6",
+    "fork-ts-checker-webpack-plugin": "^1.5.0",
+    "nodemon": "^1.19.2",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1"
+  }
+}
